@@ -1,0 +1,9 @@
+#debug: true
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/log-db?characterEncoding=utf-8&useUnicode=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+server:
+  port: 8888
